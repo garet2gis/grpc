@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package auth;
+package grpc_auth;
 
 option go_package = "github.com/garet2gis/grpc.v1;grpc_authv1";
 
