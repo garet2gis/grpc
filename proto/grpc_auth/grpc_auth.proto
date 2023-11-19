@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "mukovsky.grpc_auth.v1;grpc_authv1";
+option go_package = "github.com/garet2gis/grpc.v1;grpc_authv1";
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);

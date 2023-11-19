@@ -1,4 +1,4 @@
-module auth
+module github.com/garet2gis/grpc
 
 go 1.21.4
 
